@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic UNIX Commands</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Basic UNIX Commands</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#files">Files</a></li>
+            <li><a href="#directories">Directories</a></li>
+            <li><a href="#processes">Processes</a></li>
+            <li><a href="#network">Network</a></li>
+            <li><a href="#text-editors">Text Editors</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="files">
+            <h2>Files</h2>
+            <div class="command">
+                <h3>ls</h3>
+                <p>Lists your files.</p>
+            </div>
+            <div class="command">
+                <h3>ls -l</h3>
+                <p>Lists your files in 'long format', showing additional details.</p>
+            </div>
+            <div class="command">
+                <h3>ls -a</h3>
+                <p>Lists all files, including hidden files.</p>
+            </div>
+            <div class="command">
+                <h3>more filename</h3>
+                <p>Shows the first part of a file.</p>
+            </div>
+            <div class="command">
+                <h3>emacs filename</h3>
+                <p>Edits a file using emacs.</p>
+            </div>
+            <div class="command">
+                <h3>mv filename1 filename2</h3>
+                <p>Moves or renames a file.</p>
+            </div>
+            <div class="command">
+                <h3>cp filename1 filename2</h3>
+                <p>Copies a file.</p>
+            </div>
+            <div class="command">
+                <h3>rm filename</h3>
+                <p>Removes a file.</p>
+            </div>
+            <!-- Add more file commands as needed -->
+        </section>
+
+        <section id="directories">
+            <h2>Directories</h2>
+            <div class="command">
+                <h3>mkdir dirname</h3>
+                <p>Creates a new directory.</p>
+            </div>
+            <div class="command">
+                <h3>cd dirname</h3>
+                <p>Changes the current directory.</p>
+            </div>
+            <div class="command">
+                <h3>pwd</h3>
+                <p>Prints the current directory.</p>
+            </div>
+            <!-- Add more directory commands as needed -->
+        </section>
+
+        <section id="processes">
+            <h2>Processes</h2>
+            <div class="command">
+                <h3>ps</h3>
+                <p>Displays information about active processes.</p>
+            </div>
+            <div class="command">
+                <h3>top</h3>
+                <p>Displays a dynamic real-time view of system processes.</p>
+            </div>
+            <div class="command">
+                <h3>kill PID</h3>
+                <p>Terminates a process by its ID.</p>
+            </div>
+            <!-- Add more process commands as needed -->
+        </section>
+
+        <section id="network">
+            <h2>Network Communication</h2>
+            <div class="command">
+                <h3>ping hostname</h3>
+                <p>Tests connectivity with another host.</p>
+            </div>
+            <div class="command">
+                <h3>traceroute hostname</h3>
+                <p>Traces the route packets take to a destination.</p>
+            </div>
+            <div class="command">
+                <h3>ssh username@hostname</h3>
+                <p>Provides secure remote access to a system.</p>
+            </div>
+            <!-- Add more network commands as needed -->
+        </section>
+
+        <section id="text-editors">
+            <h2>Text Editors</h2>
+            <div class="command">
+                <h3>vim filename</h3>
+                <p>Edits a file using Vim.</p>
+            </div>
+            <div class="command">
+                <h3>emacs filename</h3>
+                <p>Edits a file using Emacs.</p>
+            </div>
+            <div class="command">
+                <h3>nano filename</h3>
+                <p>Edits a file using Nano.</p>
+            </div>
+            <!-- Add more text editor commands as needed -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Basic UNIX Commands</p>
+        <a href="https://www.javatpoint.com/basic-unix-commands">reference</a>
+        <a href="dp.pdf">download</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
